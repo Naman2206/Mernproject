@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/Naman2206/Mernproject/issues"
   },
-  "homepage": "https://github.com/Naman2206/Mernproject#readme"
+  "homepage": "https://github.com/Naman2206/Mernproject#readme",
+  "dependencies": {
+    "expess": "^0.0.1-security",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
 }
