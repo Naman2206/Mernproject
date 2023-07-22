@@ -26,6 +26,7 @@ app.get('/about',middleware,(req,res)=>{
     res.send(`hello About world from the server`);
 });
 app.get('/contact',(req,res)=>{
+    res.cookie("test", "Thapa");
     res.send(`hello contact world from the server`);
 });
 // app.get('/signin',(req,res)=>{
